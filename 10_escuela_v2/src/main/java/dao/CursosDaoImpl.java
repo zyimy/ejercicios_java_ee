@@ -21,6 +21,7 @@ public class CursosDaoImpl implements CursosDao {
 
 	}
 
+	//Busca curso por su id
 	@Override
 	public Curso findById(int idCurso) {
 		return emanager.find(Curso.class, idCurso);
